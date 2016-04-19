@@ -1,0 +1,71 @@
+ body, div, span, h2 {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+
+     background: url("imgs/bg.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+
+ .box {
+     width: 1000px;
+     height: 800px;
+     margin: 20px auto;
+     border-radius: 10px;
+     background: #EDEDED;
+     padding: 20px;
+     color: #ccc;
+     font-size: 36px;
+     font-weight: bolder;
+     position:relative;
+ }
+
+ /****使用外链样式配置右键菜单*****/
+ .menuBox {
+     width: 200px;
+     list-style:none;
+     margin:0;
+     padding:0;
+     background: #FEFEFE;
+     border: solid 1px #444444;
+     cursor: pointer;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow:1px 1px 5px #000, -1px -1px 5px #fff;
+     -webkit-box-shadow: 1px 1px 5px #000,-1px -1px 5px #fff;
+     -moz-box-shadow: 1px 1px 5px #000,-1px -1px 5px #fff;
+     -o-box-shadow: 1px 1px 5px #000,-1px -1px 5px #fff;
+     font-size: 16px;
+     position: absolute;
+ }
+
+ .menuTitle {
+     background: #DDDDDD;
+     padding: 10px 5px;
+     border-bottom: inset #444444 1px;
+     cursor: default;
+     color:black;
+ }
+
+
+ .menuItem {
+     background: #FFF;
+     padding: 5px 5px;
+ }
+
+.menuItem:hover {
+     background: #CCC;
+ }
+
+.menuItemCon {
+     height: 30px;
+     line-height: 30px;
+     padding-left: 10px;
+     position: relative;
+     color: #444444;
+     font-size: 16px;
+     vertical-align: top
+ }          

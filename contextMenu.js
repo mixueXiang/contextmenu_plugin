@@ -20,25 +20,25 @@ window.onload = function () {
             {
                 content: "添加课程",//菜单项内容
                 action: function (e, item) {//菜单项单击触发事件
-                    alert(item.content);
+                    //do something
                 },
             },
             {
                 content: "修改课程",
                 action: function (e, item) {
-                    alert("====>" + item.content);
+                     //do something
                 },
             },
             {
                 content: "删除课程",
                 action: function (e, item) {
-                    alert("====>" + item.content);
+                     //do something
                 },
             },
             {
                 content: "设置教学班",
                 action: function (e, item) {
-                    alert("====>" + item.content);
+                     //do something
                 },
             },
         ]

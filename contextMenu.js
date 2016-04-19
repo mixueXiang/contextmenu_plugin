@@ -19,7 +19,7 @@ window.onload = function () {
         items: [//菜单项配置
             {
                 content: "添加课程",//菜单项内容
-                action: function (e, item) {//菜单项单击和快捷键触发事件
+                action: function (e, item) {//菜单项单击触发事件
                     alert(item.content);
                 },
             },

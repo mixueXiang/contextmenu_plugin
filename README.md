@@ -3,12 +3,14 @@
 
 ### 组件说明：
 	  该菜单组件以面向对象编程思想为基础，
-	  利用原型和构造函数模式来创建;
-    解决了主流浏览器兼容性问题。
+	  利用原型和构造函数模式来创建，
+          解决了主流浏览器兼容性问题。
+          
 ### 文件说明：
     contextMenu.css : 决定菜单的样式
-    eventUtil.js : 定义了EventUtil对象，对象里封装了多个方法，解决方法重用以及浏览器兼容性问题
-    contextMenu.js ：菜单的主逻辑
+    eventUtil.js : 定义EventUtil对象，对象里封装了多个方法，解决方法重用以及浏览器兼容性问题
+    contextMenu.js ：定义菜单的主逻辑
+    
 ### 使用方法：
   	  1.在contextMenu.js中创建实例对象并传入自己的菜单数据对象,
     	  如：var menuExample = new ContextMenu(self_menuItem);
